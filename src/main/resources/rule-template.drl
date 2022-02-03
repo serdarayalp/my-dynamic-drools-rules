@@ -1,0 +1,19 @@
+template header
+
+rule
+eventType
+
+package de.mydomain.model;
+
+global Alert alert;
+
+template "alert"
+
+rule "alert_@{row.rowNumber}"
+when
+    @{eventType}(@{rule})
+then
+    alert.setAlert(Boolean.TRUE);
+end
+
+end template

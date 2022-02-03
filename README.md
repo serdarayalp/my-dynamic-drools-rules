@@ -1,0 +1,1 @@
+# Dynamisches Erstellen von Drools-Regeln
