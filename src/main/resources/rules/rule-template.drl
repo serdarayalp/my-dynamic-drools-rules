@@ -3,9 +3,9 @@ template header
 rule
 eventType
 
-package de.mydomain.model;
+package rules;
 
-global Alert alert;
+global de.mydomain.model.Alert alert;
 
 template "alert"
 

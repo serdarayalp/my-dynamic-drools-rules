@@ -56,7 +56,7 @@ public final class Main {
 
         return objectDataCompiler.compile(
                 List.of(data),
-                Thread.currentThread().getContextClassLoader().getResourceAsStream("rule-template.drl"));
+                Thread.currentThread().getContextClassLoader().getResourceAsStream("rules/rule-template.drl"));
     }
 
     private static Alert evaluate(String drl, Event event) {
